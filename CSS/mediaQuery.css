@@ -1,0 +1,243 @@
+
+@media screen and (max-width: 1100px) {
+  .stats-section,
+  .stats-container {
+    width: 100%;
+    min-width: auto;
+  }
+  
+  .stat-item {
+    width: 50%;
+  }
+
+  .stat-item:nth-child(2n) {
+    border-right: none;
+  }
+
+  .stat-item:nth-child(1),
+  .stat-item:nth-child(2) {
+    border-bottom: 2px solid rgba(42, 20, 89, 0.15);
+    padding-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .banner {
+    height: auto;
+    padding: 40px 0;
+  }
+
+  .banner-flex {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .frame1, 
+  .frame3,
+  .scrolling-section {
+    width: 100%;
+  }
+
+  .scrolling-section {
+    height: 380px;
+  }
+
+  .scroll-track img {
+    height: 180px;
+  }
+
+  .button, .pre-button {
+    top: 0;
+  }
+
+  .poster-section {
+    flex-direction: column;
+  }
+
+  .poster-info,
+  .poster-img {
+    width: 100%;
+  }
+
+  .poster-img img {
+    -webkit-mask-image: linear-gradient(to bottom, transparent, #000 20%);
+    mask-image: linear-gradient(to bottom, transparent, #000 20%);
+  }
+
+  footer {
+    flex-direction: column;
+    gap: 35px;
+    padding: 40px 24px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-card {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  footer svg {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+    .logo{
+        width: 100px;
+    }
+  .choose-school h2,
+  .info-card h2 {
+    font-size: 32px;
+  }
+
+  .poster-info h1 {
+    font-size: 34px;
+  }
+
+  .poster-info h3,
+  .poster-info h2 {
+    font-size: 22px;
+  }
+
+  .info-d-l {
+    height: auto;
+    flex-direction: column;
+    border-radius: 24px;
+    padding: 20px 0;
+    gap: 15px;
+  }
+
+  .info-d-l > div + div {
+    border-left: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    padding-top: 15px;
+    width: 100%;
+  }
+
+  .school-logo {
+    width: 180px;
+    height: 90px;
+  }
+
+  .school-logo img {
+    width: 70px;
+  }
+
+  .card-container {
+    width: 300px;
+    height: 260px;
+  }
+
+  .stat-item {
+    width: 100%;
+    border-right: none !important;
+    border-bottom: 2px solid rgba(42, 20, 89, 0.15);
+    padding: 1.5rem 0;
+  }
+
+  .stat-item:last-child {
+    border-bottom: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+    .school-container{
+        width: 90%;
+    }
+    .container{
+        width: 100%;
+    }
+    .button{
+        padding: 0;
+    }
+  .choose-school h2,
+  .info-card h2,
+  .poster-info h1 {
+    font-size: 26px;
+  }
+
+  .frame3 .form-text {
+    font-size: 24px;
+  }
+
+  input, textarea {
+    width: 100%;
+  }
+
+  .info-card .card {
+    width: 260px;
+    height: auto;
+    padding: 20px;
+    margin: 5px 10px;
+  }
+
+  .button, .pre-button, .Submit-button {
+    justify-content: space-between;
+  }
+
+  .register-btn, .submit-btn {
+    flex-grow: 1;
+    font-size: 14px;
+    padding: 0 12px;
+  }
+}
+@media screen and (max-width: 768px) {
+  
+  .header-01.container {
+    display: flex;
+    flex-direction: row;     
+    align-items: center;
+    justify-content: space-between; 
+    padding: 10px 0;          
+margin-top: -41px;    width: 100%;
+    gap: 10px;
+    margin-bottom: 38px;
+  }
+  .sticky-header{
+    margin-top: -12px;
+    margin-bottom: 20px;
+  }
+
+  .header-01 img {
+    width: 130px;              
+    height: auto;
+    flex-shrink: 0;      
+  }
+
+  .header-01 .button {
+    top: 0;                    
+    height: 45px;              
+    flex-shrink: 0;            
+  }
+
+  .header-01 .button svg {
+    padding: 14px;             
+    width: 14px;
+    height: 14px;
+  }
+
+  .header-01 .register-btn {
+    height: 45px;              
+    padding: 0 12px;           
+    font-size: 11px;           
+    letter-spacing: 0.5px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .header-01 img {
+    width: 110px;              
+  }
+  .header-01 .register-btn {
+    padding: 0 8px;            
+    font-size: 10px;
+  }
+  .button{
+    margin: 0;
+  }
+  
+}
+    

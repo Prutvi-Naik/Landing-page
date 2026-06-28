@@ -1,0 +1,99 @@
+
+.button, .pre-button {
+    border: 2px solid #000E38; 
+    display: inline-flex; 
+    align-items: center;
+    border-radius: 4px;
+    cursor: pointer;
+    overflow: hidden; 
+    background-color: #FFFFFF; 
+    transition: background-color 0.25s ease; 
+}
+
+.button svg {
+    background: #000E38;
+    padding: 21px;
+    fill: #FFFFFF; 
+    display: block;
+}
+
+.register-btn {
+    color: #030E3B;
+    background-color: transparent; 
+    height: 60px;
+    padding: 0 24px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    transition: color 0.25s ease; 
+}
+.pre-button{
+    border: 2px solid rgba(16, 17, 69, 1);
+margin: 15px 0;
+background-color: #ffffff00;
+}
+.pre-button svg{
+background: linear-gradient(360deg, #000E38 0%, #3F186A 100%);
+    padding: 21px;
+    fill: transparent; 
+    display: block;
+}
+.button:active {
+    background-color: #000E38; 
+}
+
+.button:active .register-btn {
+    color: #FFFFFF; 
+}
+
+.Submit-button {
+    border: 2px solid #ffffff; 
+    display: inline-flex; 
+    align-items: center;
+    border-radius: 4px;
+    cursor: pointer;
+    overflow: hidden; 
+    background-color: #000E38; 
+    transition: background-color 0.25s ease, border-color 0.25s ease; 
+}
+
+.Submit-button svg {
+    background: #FFFFFF;
+    padding: 21px; 
+    fill: #000E38;
+    display: block;
+    /* border-left: 2px solid #000E38;  */
+    transition: border-color 0.25s ease;
+}
+
+.submit-btn {
+    color: #FFFFFF;
+    background-color: transparent; 
+    height: 60px;
+    padding: 0 30px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    transition: color 0.25s ease; 
+}
+
+.Submit-button:active {
+    background-color: #FFFFFF; 
+    border-color: #000E38; 
+}
+
+.Submit-button:active svg {
+    border-left-color: #FFFFFF;
+}
+
+.Submit-button:active .submit-btn {
+    color: #000E38; 
+}

@@ -1,0 +1,58 @@
+.banner-flex {
+    display: flex;
+    align-items: stretch; 
+    justify-content: space-between;
+    width: 100%;
+}
+
+.frame1, 
+.frame3 {
+    width: 30%; 
+    box-sizing: border-box;
+}
+
+.scrolling-section {
+    width: 40%; 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 15px; 
+    height: 600px; 
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.scroll-column {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden;
+}
+
+.scroll-track {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    animation: scrollUp 20s linear infinite;
+}
+
+.scroll-track.delayed {
+    animation-duration: 25s;
+}
+
+.scroll-track img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 45%; 
+}
+
+/* Animation Keyframes */
+@keyframes scrollUp {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-860px); 
+    }
+}
