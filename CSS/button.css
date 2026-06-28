@@ -10,13 +10,18 @@
     transition: background-color 0.25s ease; 
 }
 
-.button svg {
-    background: #000E38;
-    padding: 21px;
-    fill: #FFFFFF; 
+.arrow-btn {
+        background: #000E38;
+    padding: 18px;
     display: block;
+  color:#FFFFFF;
+  font-size: 20px;
+  font-weight: bold;
 }
-
+.submit-arrow{
+    background-color: #FFFFFF;
+    color: #000E38;
+}
 .register-btn {
     color: #030E3B;
     background-color: transparent; 
